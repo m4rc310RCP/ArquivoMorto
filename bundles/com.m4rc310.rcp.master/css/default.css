@@ -1,0 +1,7 @@
+#MyButtonInstall{
+	width: 480px;
+	color: blue;
+	font-family:"Terminal";
+	font-size:12;
+	background: url("./icons/install.png");
+}

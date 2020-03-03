@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.m4rc310.rcp</groupId>
+    <artifactId>com.m4rc310.rcp.bundles</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.m4rc310.rcp</groupId>
+        <artifactId>root</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>com.m4rc310.rcp.ui</module>
+        <module>com.m4rc310.rcp.master</module>
+    </modules>
+</project>
