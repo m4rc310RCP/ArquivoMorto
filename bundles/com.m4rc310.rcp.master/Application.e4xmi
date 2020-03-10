@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.window.main" label="%title.app.name" width="500" height="400">
-    <children xsi:type="advanced:PerspectiveStack" xmi:id="_4i8aMFloEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.perspectivestack.selection" selectedElement="_A4Lm0FlpEeqiePr6N-V63A">
-      <children xsi:type="advanced:Perspective" xmi:id="_A4Lm0FlpEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.perspective.install" label="%label.installer" tooltip="%label.installer.tooltip">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_4i8aMFloEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.perspectivestack.selection" selectedElement="_lmC14FlpEeqiePr6N-V63A">
+      <children xsi:type="advanced:Perspective" xmi:id="_A4Lm0FlpEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.perspective.install" toBeRendered="false" label="%label.installer" tooltip="%label.installer.tooltip">
         <children xsi:type="basic:PartSashContainer" xmi:id="_oUE3gFlrEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.partsashcontainer.0" selectedElement="_prum8FlrEeqiePr6N-V63A">
           <children xsi:type="basic:PartStack" xmi:id="_prum8FlrEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.partstack.0">
             <children xsi:type="basic:Part" xmi:id="_vRri0FlrEeqiePr6N-V63A" elementId="com.m4rc310.rcp.master.part.instalation" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.parts.InstalationPart" label="%label.install" tooltip="%label.install"/>
@@ -15,15 +15,27 @@
         </children>
       </children>
     </children>
-    <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu"/>
+    <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_my-dEF6NEeqVBo1BsvzSQQ" elementId="help" label="%menu.help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QHkmsF6OEeqVBo1BsvzSQQ" elementId="com.m4rc310.rcp.master.handledmenuitem.textcheckforupdates" label="%text.check.for.updates" iconURI="platform:/plugin/com.m4rc310.rcp.master/icons/agt_update_drivers.png" command="_czxMgF6OEeqVBo1BsvzSQQ"/>
+      </children>
+    </mainMenu>
     <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.trimbar.top">
       <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_BV62AF7rEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.update" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.ToolcontrolUpdate">
+        <tags>stretch</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_6mBPgF7qEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yqpiIF7vEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.handledtoolitem.textupdate" label="" iconURI="platform:/plugin/com.m4rc310.rcp.master/icons/agt_update_drivers.png" tooltip="%text.update" command="_czxMgF6OEeqVBo1BsvzSQQ"/>
+        <children xsi:type="menu:ToolControl" xmi:id="_Sn13sF8VEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.SP"/>
+      </children>
     </trimBars>
   </children>
   <handlers xmi:id="_6wlLfcgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.handler.quitCommand" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.QuitHandler" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
   <handlers xmi:id="_6wlLgcgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.handler.openCommand" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.OpenHandler" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
   <handlers xmi:id="_6wlLhMgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.handler.saveCommand" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.SaveHandler" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
   <handlers xmi:id="_6wlLh8gZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.handler.aboutCommand" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.AboutHandler" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_YZ3NAF6OEeqVBo1BsvzSQQ" elementId="com.m4rc310.rcp.master.handler.0" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.UpdateHandler2" command="_czxMgF6OEeqVBo1BsvzSQQ"/>
   <bindingTables xmi:id="_6wlLfsgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.bindingtable" bindingContext="_6wlLecgZEeSyMNYR5xypkQ">
     <bindings xmi:id="_6wlLf8gZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.keybinding.m1q" keySequence="M1+Q" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
     <bindings xmi:id="_6wlLgsgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.keybinding.m1o" keySequence="M1+O" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
@@ -37,7 +49,8 @@
   <commands xmi:id="_6wlLfMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
   <commands xmi:id="_6wlLgMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.open" commandName="openCommand"/>
   <commands xmi:id="_6wlLg8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
-  <commands xmi:id="_6wlLhsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_6wlLhsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.help.aboutAction_" commandName="aboutCommand"/>
+  <commands xmi:id="_czxMgF6OEeqVBo1BsvzSQQ" elementId="org.eclipse.ui.help.update" commandName="updateCommand"/>
   <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

@@ -1,0 +1,784 @@
+!SESSION 2020-03-04 22:49:28.007 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho10583234461463214327secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho10583234461463214327secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 22:49:28.008
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.096
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for Feature 1.0.14 (com.m4rc310.rcp.feature.feature.group 1.0.14) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for com.m4rc310.rcp.master.product 1.0.1 is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:51:35.097
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 22:57:58.230 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho840007430061073359secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho840007430061073359secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 22:57:58.230
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for Feature 1.0.14 (com.m4rc310.rcp.feature.feature.group 1.0.14) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.093
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.094
+!MESSAGE Add request for com.m4rc310.rcp.master.product 1.0.1 is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 22:59:35.094
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 23:02:05.084 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho358338144385523579secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho358338144385523579secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 23:02:05.085
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.170
+!MESSAGE Add request for com.m4rc310.rcp.master.product 1.0.1 is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:03:24.171
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 23:28:41.117 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho8655352036667108139secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho8655352036667108139secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 23:28:41.117
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.183
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for com.m4rc310.rcp.master.product 1.0.1 is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:29:31.184
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 23:33:41.863 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho8623716251042443796secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho8623716251042443796secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 23:33:41.863
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for com.m4rc310.rcp.master.product 1.0.1 is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:34:25.837
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 23:36:46.755 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho18366253642326054445secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho18366253642326054445secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 23:36:46.755
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for com.m4rc310.rcp.master.product 1.0.1 is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:37:48.034
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 23:42:05.118 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12151581162991656556secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12151581162991656556secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 23:42:05.118
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:43:01.636
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-04 23:44:47.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho6402689001080102731secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho6402689001080102731secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-04 23:44:47.661
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-04 23:45:45.605
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 00:44:19.132 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5860957706659753409secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5860957706659753409secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 00:44:19.132
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.622
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.625
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 00:48:33.627
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 08:07:14.801 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho7470557687504885750secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho7470557687504885750secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 08:07:14.801
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 08:08:46.920
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 10:22:39.251 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho16655459318895734372secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho16655459318895734372secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 10:22:39.251
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:24:13.152
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 10:34:58.532 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12078884555556049933secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12078884555556049933secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 10:34:58.533
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2020-03-09 10:35:48.783 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho13663283787588271642secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho13663283787588271642secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 10:35:48.784
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.671
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.671
+!MESSAGE Add request for Feature 1.0.17 (com.m4rc310.rcp.feature.feature.group 1.0.17) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.671
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:37:08.672
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 10:43:32.296 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12119254001584541250secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12119254001584541250secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 10:43:32.296
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for Feature 1.0.15 (com.m4rc310.rcp.feature.feature.group 1.0.15) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:44:51.259
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 10:45:45.642 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12553478454151317400secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12553478454151317400secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 10:45:45.642
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Add request for Feature 1.0.18 (com.m4rc310.rcp.feature.feature.group 1.0.18) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.810
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.811
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.811
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 10:47:27.811
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 10:59:46.770 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho15175571623618742082secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho15175571623618742082secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 10:59:46.771
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.422
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.422
+!MESSAGE Add request for Feature 1.0.18 (com.m4rc310.rcp.feature.feature.group 1.0.18) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.422
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.422
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.422
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.422
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.423
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.423
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.423
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:01:24.423
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 11:06:32.739 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho4721716402632611812secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho4721716402632611812secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 11:06:32.740
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for Feature 1.0.19 (com.m4rc310.rcp.feature.feature.group 1.0.19) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:08:59.157
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 11:13:47.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho2660807368993971060secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho2660807368993971060secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 11:13:47.661
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for Feature 1.0.20 (com.m4rc310.rcp.feature.feature.group 1.0.20) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:15:39.574
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 11:21:58.697 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12168273753282921444secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12168273753282921444secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 11:21:58.697
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for Feature 1.0.21 (com.m4rc310.rcp.feature.feature.group 1.0.21) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 11:23:44.262
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 14:47:51.511 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5392979924551973461secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5392979924551973461secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 14:47:51.512
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.319
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.319
+!MESSAGE Add request for Feature 1.0.21 (com.m4rc310.rcp.feature.feature.group 1.0.21) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.319
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.319
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.320
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.320
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.320
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.320
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.320
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:48:51.320
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 14:51:00.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho990404278222956840secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho990404278222956840secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 14:51:00.661
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for Feature 1.0.22 (com.m4rc310.rcp.feature.feature.group 1.0.22) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 14:52:16.371
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 15:18:01.893 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho3585678735520691196secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho3585678735520691196secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 15:18:01.894
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.621
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for Feature 1.0.22 (com.m4rc310.rcp.feature.feature.group 1.0.22) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:19:13.622
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 15:25:01.780 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12265202812888042412secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12265202812888042412secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 15:25:01.781
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.520
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.520
+!MESSAGE Add request for Feature 1.0.23 (com.m4rc310.rcp.feature.feature.group 1.0.23) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.520
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.520
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.521
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.521
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.521
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.521
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.521
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 15:26:35.521
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 15:52:17.616 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho9478587019620948839secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho9478587019620948839secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 15:52:17.617
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2020-03-09 15:56:25.493 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5112321240556947681secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5112321240556947681secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 15:56:25.494
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2020-03-09 16:02:30.785 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12569041380802716454secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho12569041380802716454secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 16:02:30.786
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.734
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for Feature 1.0.25 (com.m4rc310.rcp.feature.feature.group 1.0.25) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:04:39.735
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-09 16:11:57.762 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho17052830016781147586secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho17052830016781147586secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-09 16:11:57.762
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for Feature 1.0.26 (com.m4rc310.rcp.feature.feature.group 1.0.26) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for ECF Filetransfer Feature 3.14.2.v20180801-2237 (org.eclipse.ecf.filetransfer.feature.feature.group 3.14.2.v20180801-2237) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for EMF - Eclipse Modeling Framework Core Runtime 2.15.0.v20180722-1159 (org.eclipse.emf.ecore.feature.group 2.15.0.v20180722-1159) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for Eclipse RCP 4.9.0.v20180906-1121 (org.eclipse.rcp.feature.group 4.9.0.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for Equinox p2, headless functionalities 1.5.100.v20180829-1443 (org.eclipse.equinox.p2.core.feature.feature.group 1.5.100.v20180829-1443) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for EMF Common 2.15.0.v20180723-1316 (org.eclipse.emf.common.feature.group 2.15.0.v20180723-1316) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for Eclipse 4 Rich Client Platform 1.6.200.v20180906-1121 (org.eclipse.e4.rcp.feature.group 1.6.200.v20180906-1121) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for RCP 1.0.1 (com.m4rc310.rcp.master.product 1.0.1) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2020-03-09 16:13:28.275
+!MESSAGE Add request for ECF Core Feature 1.5.1.v20180810-0833 (org.eclipse.ecf.core.feature.feature.group 1.5.1.v20180810-0833) is satisfiable
+!SESSION 2020-03-10 00:31:02.755 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho1519410617808559677secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho1519410617808559677secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-10 00:31:02.756
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

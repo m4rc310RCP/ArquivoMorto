@@ -59,6 +59,8 @@ public class PartControl {
 
 	}
 
+	
+	
 	public String addNumberToLabel(Object ref, String text, int value) {
 		if (mapReferences.containsKey(ref)) {
 			return String.format("%s (%d)", mapReferences.get(ref), value);

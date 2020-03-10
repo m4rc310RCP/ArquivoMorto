@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="%app.name" uid="ArquivoMortoProduct" id="com.m4rc310.rcp.master.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="RCP" uid="com.m4rc310.rcp.master.product" id="com.m4rc310.rcp.master.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.1" useFeatures="true" includeLaunchers="true">
+
 
    <configIni use="default">
    </configIni>
@@ -15,14 +16,24 @@
 
    <windowImages/>
 
-   <launcher name="ArquivoMorto">
-      <win useIco="false">
+   <splash
+      location="com.m4rc310.rcp.master"
+      startupProgressRect="5,275,445,15"
+      startupMessageRect="7,252,445,20"
+      startupForegroundColor="000000" />
+   <launcher name="RCP">
+      <linux icon="/com.m4rc310.rcp.master/icons/umbrela.XPM"/>
+      <macosx icon="/com.m4rc310.rcp.master/icons/colors.icns"/>
+      <win useIco="true">
+         <ico path="/com.m4rc310.rcp.master/icons/umbrela.ico"/>
          <bmp/>
       </win>
    </launcher>
 
+
    <vm>
    </vm>
+
 
    <plugins>
       <plugin id="com.ibm.icu"/>
@@ -105,6 +116,9 @@
       <feature id="com.m4rc310.rcp.feature" installMode="root"/>
       <feature id="org.eclipse.emf.ecore" installMode="root"/>
       <feature id="org.eclipse.emf.common" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" installMode="root"/>
    </features>
 
    <configurations>
@@ -114,5 +128,16 @@
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
+
+   <repositories>
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+   </repositories>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>
