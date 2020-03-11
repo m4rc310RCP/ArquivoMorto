@@ -5,3 +5,8 @@
 	font-size:12;
 	background: url("./icons/install.png");
 }
+
+#MyLabelVersionName{
+	color: blue;
+	font-size:7;
+}

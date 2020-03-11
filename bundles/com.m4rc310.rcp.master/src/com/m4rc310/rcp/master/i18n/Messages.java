@@ -27,5 +27,8 @@ public class Messages {
 	public String textCancel;
 	public String textInstalling;
 	public String messageErrorOperationAlreadyInProgress;
+	public String textTrySearchUpdates;
+	public String textAppInfo;
+	public String textAppInfoName;
 }
 

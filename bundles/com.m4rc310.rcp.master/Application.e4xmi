@@ -30,6 +30,14 @@
         <children xsi:type="menu:ToolControl" xmi:id="_Sn13sF8VEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.SP"/>
       </children>
     </trimBars>
+    <trimBars xmi:id="_y4H18GLrEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.trimbar.status" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_1mSsYGLrEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.sp" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.SP">
+        <tags>stretch</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_MzZ_gGMpEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolbar.1">
+        <children xsi:type="menu:ToolControl" xmi:id="_N9JOwGMpEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.1" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.ToolControlAppVersion"/>
+      </children>
+    </trimBars>
   </children>
   <handlers xmi:id="_6wlLfcgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.handler.quitCommand" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.QuitHandler" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
   <handlers xmi:id="_6wlLgcgZEeSyMNYR5xypkQ" elementId="com.m4rc310.rcp.master.handler.openCommand" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.handlers.OpenHandler" command="_6wlLgMgZEeSyMNYR5xypkQ"/>

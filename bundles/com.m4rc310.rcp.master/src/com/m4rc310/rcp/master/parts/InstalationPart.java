@@ -170,6 +170,7 @@ public class InstalationPart {
 				MessageDialog.openError(shell, m.dialogMessageboxTitleError, err);
 			});
 		});
+		
 		installAction.getStream().addListener(InstallAction.SHOW_DIALOG_INFORMATION, e -> {
 			MessageDialog.openInformation(shell, m.dialogMessageboxTitleInfo, e.getValue(0, String.class));
 		});

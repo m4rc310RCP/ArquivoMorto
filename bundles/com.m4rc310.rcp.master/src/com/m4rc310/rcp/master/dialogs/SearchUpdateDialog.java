@@ -46,7 +46,8 @@ public class SearchUpdateDialog extends Dialog {
 
 	@Inject
 	InstallAction2 action;
-
+	
+	
 	private final int ACTION_NONE = 0;
 	private final int ACTION_CANCEL = 1;
 	private final int ACTION_RESTART = 3;
@@ -70,7 +71,7 @@ public class SearchUpdateDialog extends Dialog {
 
 		group.setLayoutData(data);
 
-		Label label = pc.getLabel(group, m.labelTestLongText, SWT.WRAP);
+		Label label = pc.getLabel(group, m.textTrySearchUpdates, SWT.WRAP);
 		data = new GridData(SWT.FILL, SWT.TOP, true, false);
 		data.widthHint = 370;
 		label.setLayoutData(data);
@@ -143,6 +144,7 @@ public class SearchUpdateDialog extends Dialog {
 			Button button = getButton(IDialogConstants.CANCEL_ID);
 			button.setText(m.textRestart);
 			button.getParent().layout();
+			getShell().setDefaultButton(button);
 		});
 
 		action.getStream().addListener(InstallAction.PREPARE_TO_CLOSE, e -> {

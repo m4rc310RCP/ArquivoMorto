@@ -101,7 +101,6 @@ public class InstallAction2 extends MAction {
 								if (event.getResult().isOK()) {
 									fire(PREPARE_TO_RESTART);
 									fire(PRINT_INFO, m.commandAppUpdateRestartTitle);
-									provisioningJob.done(Status.OK_STATUS);
 								} else {
 									fire(SHOW_DIALOG_ERROR, event.getResult().getMessage());
 									cancelled = true;

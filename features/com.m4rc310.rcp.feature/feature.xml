@@ -2,7 +2,7 @@
 <feature
       id="com.m4rc310.rcp.feature"
       label="Feature"
-      version="1.0.26"
+      version="1.0.30"
       provider-name="M4RC310">
 
    <description url="http://www.example.com/description">

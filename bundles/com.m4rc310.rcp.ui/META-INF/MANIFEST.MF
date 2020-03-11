@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Ui
 Bundle-SymbolicName: com.m4rc310.rcp.ui;singleton:=true
-Bundle-Version: 1.0.26
+Bundle-Version: 1.0.30
 Bundle-Vendor: M4RC310
 Automatic-Module-Name: com.m4rc310.rcp.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8

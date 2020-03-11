@@ -43,11 +43,17 @@ public class UpdateHandler2 {
 	
 	@Inject @Translation Messages m;
 	
+	
+	
 	boolean cancelled = false;
 	
 	
 	@Execute
 	public void execute2(IEclipseContext context) {
+		
+//		System.out.println(applicationInfo.getAppName());
+//		System.out.println(applicationInfo.getAppVersion());
+		
 		SearchUpdateDialog dialog = ContextInjectionFactory.make(SearchUpdateDialog.class, context);
 		dialog.open();
 	}
