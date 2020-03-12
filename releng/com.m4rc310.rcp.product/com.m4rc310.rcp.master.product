@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="RCP" uid="com.m4rc310.rcp.master.product" id="com.m4rc310.rcp.master.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.1" useFeatures="true" includeLaunchers="true">
-
+<product name="ArquivoMorto" uid="com.m4rc310.rcp.master.product" id="com.m4rc310.rcp.master.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.1" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -21,7 +20,7 @@
       startupProgressRect="5,275,445,15"
       startupMessageRect="7,252,445,20"
       startupForegroundColor="000000" />
-   <launcher name="RCP">
+   <launcher name="ArquivoMorto">
       <linux icon="/com.m4rc310.rcp.master/icons/umbrela.XPM"/>
       <macosx icon="/com.m4rc310.rcp.master/icons/colors.icns"/>
       <win useIco="true">
@@ -30,10 +29,8 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
       <plugin id="com.ibm.icu"/>
@@ -111,9 +108,9 @@
    </plugins>
 
    <features>
+      <feature id="com.m4rc310.rcp.feature" installMode="root"/>
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
       <feature id="org.eclipse.rcp" installMode="root"/>
-      <feature id="com.m4rc310.rcp.feature" installMode="root"/>
       <feature id="org.eclipse.emf.ecore" installMode="root"/>
       <feature id="org.eclipse.emf.common" installMode="root"/>
       <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
@@ -138,6 +135,7 @@
    </preferencesInfo>
 
    <cssInfo>
+      <file path="/com.m4rc310.rcp.master/css/default.css"/>
    </cssInfo>
 
 </product>

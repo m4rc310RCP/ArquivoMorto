@@ -21,3 +21,12 @@ Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
  javax.inject;version="1.0.0",
  org.eclipse.e4.core.services.nls
 Automatic-Module-Name: com.m4rc310.rcp.master
+Bundle-ActivationPolicy: lazy
+Export-Package: com.m4rc310.rcp.master.actions,
+ com.m4rc310.rcp.master.dialogs,
+ com.m4rc310.rcp.master.handlers,
+ com.m4rc310.rcp.master.i18n,
+ com.m4rc310.rcp.master.parts,
+ com.m4rc310.rcp.master.tests,
+ com.m4rc310.rcp.master.toolcontrols,
+ com.m4rc310.rcp.master.utils

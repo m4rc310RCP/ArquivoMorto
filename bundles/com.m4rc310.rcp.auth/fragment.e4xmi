@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_QqSikIrOEeW7h_qdP9N9fw" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_UCYfwIrOEeW7h_qdP9N9fw" elementId="com.m4rc310.rcp.auth.login.logout" commandName="Login Logout" description=""/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_fW12kIrOEeW7h_qdP9N9fw" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_k2L0IIrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.handler.0" contributionURI="bundleclass://com.m4rc310.rcp.auth/com.m4rc310.rcp.auth.handlers.LoginHandler" command="_UCYfwIrOEeW7h_qdP9N9fw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_X_BUwGQYEeqCCbwj84_bCw" featurename="children" parentElementId="com.m4rc310.rcp.master.toolbar.left">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_ua5PcGQZEeqCCbwj84_bCw" elementId="com.m4rc310.rcp.auth.handledtoolitem.0" iconURI="platform:/plugin/com.m4rc310.rcp.auth/icons/lock_open.png" type="Check" command="_UCYfwIrOEeW7h_qdP9N9fw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_XFmukGQaEeqCCbwj84_bCw" featurename="children" parentElementId="com.m4rc310.rcp.master.toolbar.c">
+    <elements xsi:type="menu:ToolControl" xmi:id="_ggKkgGQaEeqCCbwj84_bCw" elementId="com.m4rc310.rcp.auth.toolcontrol.user" contributionURI="bundleclass://com.m4rc310.rcp.auth/com.m4rc310.rcp.auth.toolcontrols.ToolcontrolUser"/>
+  </fragments>
+</fragment:ModelFragments>

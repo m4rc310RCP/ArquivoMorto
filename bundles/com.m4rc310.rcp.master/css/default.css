@@ -1,12 +1,19 @@
-#MyButtonInstall{
-	width: 480px;
-	color: blue;
-	font-family:"Terminal";
-	font-size:12;
-	background: url("./icons/install.png");
+.MTrimmedWindow {
+    background-color: #E8E8E8;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.MPartStack {
+  swt-unselected-tabs-color: #FFFFFF #FFFFFF #FFFFFF 100% 100%;
+  swt-outer-keyline-color: #FFFFFF;
+  swt-swt-inner-keyline-color: #FFFFFF;
+  font-size: 10;
 }
 
-#MyLabelVersionName{
-	color: blue;
-	font-size:7;
+#MyLabelVersion {
+	font-size: 11;
+    color:#7D74AC;
+    padding-right: 5px;
 }

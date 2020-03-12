@@ -15,5 +15,6 @@
     <modules>
         <module>com.m4rc310.rcp.ui</module>
         <module>com.m4rc310.rcp.master</module>
+        <module>com.m4rc310.rcp.auth</module>
     </modules>
 </project>

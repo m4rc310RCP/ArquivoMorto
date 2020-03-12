@@ -25,6 +25,7 @@
       <children xsi:type="menu:ToolControl" xmi:id="_BV62AF7rEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.update" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.ToolcontrolUpdate">
         <tags>stretch</tags>
       </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_zRlkgGQMEeqCCbwj84_bCw" elementId="com.m4rc310.rcp.master.toolbar.left"/>
       <children xsi:type="menu:ToolBar" xmi:id="_6mBPgF7qEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolbar.0">
         <children xsi:type="menu:HandledToolItem" xmi:id="_yqpiIF7vEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.handledtoolitem.textupdate" label="" iconURI="platform:/plugin/com.m4rc310.rcp.master/icons/agt_update_drivers.png" tooltip="%text.update" command="_czxMgF6OEeqVBo1BsvzSQQ"/>
         <children xsi:type="menu:ToolControl" xmi:id="_Sn13sF8VEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.SP"/>
@@ -34,8 +35,10 @@
       <children xsi:type="menu:ToolControl" xmi:id="_1mSsYGLrEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.sp" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.SP">
         <tags>stretch</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_MzZ_gGMpEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolbar.1">
+      <children xsi:type="menu:ToolBar" xmi:id="_xWa_sGQJEeqCCbwj84_bCw" elementId="com.m4rc310.rcp.master.toolbar.c"/>
+      <children xsi:type="menu:ToolBar" xmi:id="_MzZ_gGMpEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolbar.d">
         <children xsi:type="menu:ToolControl" xmi:id="_N9JOwGMpEeqBxY0AbEfCpw" elementId="com.m4rc310.rcp.master.toolcontrol.1" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.ToolControlAppVersion"/>
+        <children xsi:type="menu:ToolControl" xmi:id="_plFfEGPBEeqCCbwj84_bCw" elementId="com.m4rc310.rcp.master.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.rcp.master/com.m4rc310.rcp.master.toolcontrols.SP"/>
       </children>
     </trimBars>
   </children>

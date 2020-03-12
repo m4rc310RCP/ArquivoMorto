@@ -7,10 +7,10 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            name="%app.name">
+            name="ArquivoMorto">
          <property
                name="appName"
-               value="%app.name">
+               value="ArquivoMorto">
          </property>
          <property
                name="startupForegroundColor"
@@ -23,6 +23,10 @@
          <property
                name="startupProgressRect"
                value="5,275,445,15">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.m4rc310.rcp.master/css/default.css">
          </property>
          <property
                name="preferenceCustomization"

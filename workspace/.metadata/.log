@@ -916,3 +916,23 @@ Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3b
 
 !ENTRY org.eclipse.core.net 1 0 2020-03-10 22:33:31.583
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2020-03-12 01:47:15.393 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5124352392237687961secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5124352392237687961secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-12 01:47:15.397
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2020-03-12 01:50:43.157 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5677318768342752925secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/gw/qls15lfj1q10lzm1pz7d3bm00000gn/T/tycho5677318768342752925secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-12 01:50:43.159
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
