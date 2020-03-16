@@ -17,7 +17,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Shell;
 
-import com.m4rc310.rcp.master.actions.InstallAction;
+import com.m4rc310.rcp.master.actions.InstallAction2;
 import com.m4rc310.rcp.master.i18n.Messages;
 import com.m4rc310.rcp.ui.utils.PartControl;
 
@@ -31,7 +31,7 @@ public class InstalationPart {
 	Messages m;
 
 	@Inject
-	InstallAction installAction;
+	InstallAction2 installAction;
 
 	@Inject
 	UISynchronize sync;
@@ -96,7 +96,7 @@ public class InstalationPart {
 		
 		
 		Button buttonClose = pc.getButton(buttonsParents, m.textClose, e -> {
-			installAction.close();
+//			installAction.close();
 		});
 
 		gd = new GridData(SWT.CENTER, SWT.NONE, true, true);
@@ -114,7 +114,7 @@ public class InstalationPart {
 		gd.minimumWidth = 370;
 		info.setLayoutData(gd);
 
-		installAction.getStream().addListener(InstallAction.PREPARE_TO_RESTART, e -> {
+		installAction.getStream().addListener(InstallAction2.PREPARE_TO_RESTART, e -> {
 			sync.syncExec(() -> {
 				buttonClose.setEnabled(false);
 				buttonRestart.setEnabled(true);
@@ -126,7 +126,7 @@ public class InstalationPart {
 				iconParents.layout();
 			});
 		});
-		installAction.getStream().addListener(InstallAction.PREPARE_TO_CLOSE, e -> {
+		installAction.getStream().addListener(InstallAction2.PREPARE_TO_CLOSE, e -> {
 			sync.syncExec(() -> {
 				buttonClose.setEnabled(true);
 				buttonRestart.setEnabled(false);
@@ -137,7 +137,7 @@ public class InstalationPart {
 			
 		});
 
-		installAction.getStream().addListener(InstallAction.PREPARE_TO_INIT, e -> {
+		installAction.getStream().addListener(InstallAction2.PREPARE_TO_INIT, e -> {
 			sync.syncExec(() -> {
 				buttonClose.setEnabled(false);
 				buttonRestart.setEnabled(false);
@@ -150,32 +150,32 @@ public class InstalationPart {
 			});
 		});
 		
-		installAction.getStream().addListener(InstallAction.PREPARE_TO_INSTALLING, e -> {
+		installAction.getStream().addListener(InstallAction2.PREPARE_TO_INSTALLING, e -> {
 			sync.syncExec(() -> {
 				stackLayout.topControl = buttonInstalling;
 				buttonsParents.layout();
 			});
 		});
 
-		installAction.getStream().addListener(InstallAction.INSTALING, e -> {
+		installAction.getStream().addListener(InstallAction2.INSTALING, e -> {
 			sync.syncExec(() -> {
 				Boolean enabled = e.getValue(0, boolean.class);
 				buttonInstall.setEnabled(!enabled);
 			});
 		});
 
-		installAction.getStream().addListener(InstallAction.SHOW_DIALOG_ERROR, e -> {
+		installAction.getStream().addListener(InstallAction2.SHOW_DIALOG_ERROR, e -> {
 			sync.syncExec(() -> {
 				String err = e.getValue(0, String.class);
 				MessageDialog.openError(shell, m.dialogMessageboxTitleError, err);
 			});
 		});
 		
-		installAction.getStream().addListener(InstallAction.SHOW_DIALOG_INFORMATION, e -> {
+		installAction.getStream().addListener(InstallAction2.SHOW_DIALOG_INFORMATION, e -> {
 			MessageDialog.openInformation(shell, m.dialogMessageboxTitleInfo, e.getValue(0, String.class));
 		});
 
-		installAction.getStream().addListener(InstallAction.PRINT_INFO, e -> {
+		installAction.getStream().addListener(InstallAction2.PRINT_INFO, e -> {
 			sync.syncExec(() -> {
 				String text = e.getValue(0, String.class);
 				info.setText(text);
@@ -187,7 +187,7 @@ public class InstalationPart {
 //		stream.addListener(property, listener);
 //		engine.setId(buttonInstall, "MyButtonInstall");
 
-		installAction.init();
+		installAction.startInstall();
 	}
 	
 	

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Ui
 Bundle-SymbolicName: com.m4rc310.rcp.ui;singleton:=true
-Bundle-Version: 1.0.30
+Bundle-Version: 1.0.41
 Bundle-Vendor: M4RC310
 Automatic-Module-Name: com.m4rc310.rcp.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
@@ -16,6 +16,20 @@ Require-Bundle: org.eclipse.e4.core.services,
  org.eclipse.osgi,
  org.eclipse.core.runtime
 Import-Package: javax.inject;version="1.0.0"
-Export-Package: com.m4rc310.rcp.ui.utils,
+Export-Package: .,
+ com.m4rc310.rcp.ui.utils,
  com.m4rc310.rcp.ui.utils.streaming,
+ lombok,
+ lombok.delombok.ant,
+ lombok.experimental,
+ lombok.extern.apachecommons,
+ lombok.extern.flogger,
+ lombok.extern.java,
+ lombok.extern.jbosslog,
+ lombok.extern.log4j,
+ lombok.extern.slf4j,
+ lombok.javac.apt,
+ lombok.launch,
  org.eclipse.wb.swt
+Bundle-ClassPath: libs/lombok.jar,
+ .

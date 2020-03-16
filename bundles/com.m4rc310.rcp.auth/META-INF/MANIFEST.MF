@@ -2,17 +2,32 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Auth
 Bundle-SymbolicName: com.m4rc310.rcp.auth;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.41
+Bundle-Activator: com.m4rc310.rcp.auth.Activator
 Bundle-Vendor: M4RC310
-Export-Package: com.m4rc310.rcp.auth.handlers
+Export-Package: com.m4rc310.rcp.auth.actions,
+ com.m4rc310.rcp.auth.dialogs,
+ com.m4rc310.rcp.auth.handlers,
+ com.m4rc310.rcp.auth.i18n,
+ com.m4rc310.rcp.auth.models,
+ com.m4rc310.rcp.auth.popups,
+ com.m4rc310.rcp.auth.toolcontrols
 Require-Bundle: javax.inject,
- org.eclipse.osgi,
  org.eclipse.jface,
  org.eclipse.e4.ui.services,
- org.eclipse.e4.core.di.annotations,
  org.eclipse.e4.core.di,
- com.m4rc310.rcp.ui
+ com.m4rc310.rcp.ui,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.e4.ui.di,
+ org.eclipse.e4.core.services,
+ com.m4rc310.rcp.popup,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.osgi,
+ org.eclipse.e4.core.di.extensions,
+ org.eclipse.osgi.services
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Automatic-Module-Name: com.m4rc310.rcp.auth
+Bundle-ActivationPolicy: lazy
 Import-Package: javax.annotation;version="1.2.0",
  javax.inject;version="1.0.0"
+Automatic-Module-Name: com.m4rc310.rcp.auth

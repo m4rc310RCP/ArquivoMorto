@@ -2,7 +2,7 @@
 <feature
       id="com.m4rc310.rcp.feature"
       label="Feature"
-      version="1.0.30"
+      version="1.0.41"
       provider-name="M4RC310">
 
    <description url="http://www.example.com/description">
@@ -18,6 +18,13 @@
    </license>
 
    <plugin
+         id="com.m4rc310.rcp.auth"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="com.m4rc310.rcp.master"
          download-size="0"
          install-size="0"
@@ -25,14 +32,14 @@
          unpack="false"/>
 
    <plugin
-         id="com.m4rc310.rcp.ui"
+         id="com.m4rc310.rcp.popup"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="com.m4rc310.rcp.auth"
+         id="com.m4rc310.rcp.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"

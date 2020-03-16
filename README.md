@@ -1,2 +1,12 @@
 # ArquivoMorto
-![Captura de Tela 2020-03-10 às 00 58 44](https://user-images.githubusercontent.com/1664608/76278629-cc306300-626a-11ea-92d8-c88ea65df451.png)
+
+** Aplicação começando a tomar forma... **
+
+<img src="https://user-images.githubusercontent.com/1664608/76376049-14608b80-6326-11ea-98e7-ab402b29541c.png" width=700/>
+
+
+** Após quarto dia de desenvolvimento... **
+
+Implementada sistemática de autenticação de usuários. Como não é um sistema crítico em termos de segurança onde há a exigência de um controle mais rigoroso de acesso, optou-se por utilizar uma tela que captura apenas a senha (que deve ser única) e por intermédio dela é identificado o usuário. O objetivo é tornar ágil o ato de autenticação. 
+
+<img src="prints/print20200314.png" width=700/>

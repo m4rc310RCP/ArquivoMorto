@@ -24,7 +24,6 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.wb.swt.ResourceManager;
 import org.eclipse.wb.swt.SWTResourceManager;
 
-import com.m4rc310.rcp.master.actions.InstallAction;
 import com.m4rc310.rcp.master.actions.InstallAction2;
 import com.m4rc310.rcp.master.i18n.Messages;
 import com.m4rc310.rcp.ui.utils.PartControl;
@@ -91,7 +90,7 @@ public class SearchUpdateDialog extends Dialog {
 		data = new GridData(SWT.FILL, SWT.TOP, true, false);
 		pb.setLayoutData(data);
 
-		action.getStream().addListener(InstallAction.START_UPDATE, e -> {
+		action.addListener(InstallAction2.START_UPDATE, e -> {
 			Job job = e.getValue(0, Job.class);
 
 			IProgressMonitor monitor = new ProgressMonitorAdapter() {
@@ -114,6 +113,7 @@ public class SearchUpdateDialog extends Dialog {
 				@Override
 				public void done() {
 					sync.syncExec(() -> {
+						if(!pb.isDisposed())
 						pb.setSelection(pb.getMaximum());
 					});
 				}
@@ -134,12 +134,12 @@ public class SearchUpdateDialog extends Dialog {
 			job.schedule();
 		});
 
-		action.getStream().addListener(InstallAction.PRINT_INFO, e -> {
+		action.addListener(InstallAction2.PRINT_INFO, e -> {
 			String st = e.getValue(0, String.class);
 			labelStatus.setText(st);
 		});
 
-		action.getStream().addListener(InstallAction.PREPARE_TO_RESTART, e -> {
+		action.addListener(InstallAction2.PREPARE_TO_RESTART, e -> {
 			actionButton = ACTION_RESTART;
 			Button button = getButton(IDialogConstants.CANCEL_ID);
 			button.setText(m.textRestart);
@@ -147,14 +147,16 @@ public class SearchUpdateDialog extends Dialog {
 			getShell().setDefaultButton(button);
 		});
 
-		action.getStream().addListener(InstallAction.PREPARE_TO_CLOSE, e -> {
+		action.addListener(InstallAction2.PREPARE_TO_CLOSE, e -> {
 			actionButton = ACTION_CANCEL;
 			Button button = getButton(IDialogConstants.CANCEL_ID);
 			button.setText(m.textClose);
 			button.getParent().layout();
 		});
 
-		action.getStream().addListener(InstallAction.PREPARE_TO_INSTALLING, e -> {
+		
+		
+		action.addListener(InstallAction2.PREPARE_TO_INSTALLING, e -> {
 			actionButton = ACTION_CANCEL;
 			Button button = getButton(IDialogConstants.CANCEL_ID);
 			button.setText(m.textCancel);
@@ -171,6 +173,7 @@ public class SearchUpdateDialog extends Dialog {
 
 		switch (actionButton) {
 		case ACTION_CANCEL:
+			action.cancel();
 			super.cancelPressed();
 			break;
 
@@ -182,6 +185,7 @@ public class SearchUpdateDialog extends Dialog {
 			
 		case ACTION_NONE:
 		default:
+			action.cancel();
 			super.cancelPressed();
 		}
 

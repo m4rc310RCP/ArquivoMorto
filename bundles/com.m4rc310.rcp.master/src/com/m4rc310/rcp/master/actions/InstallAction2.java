@@ -49,6 +49,8 @@ public class InstallAction2 extends MAction {
 
 	boolean cancelled = false;
 
+	private Job job;
+
 	public static final String INSTALING = "instaling";
 	public static final String PRINT_INFO = "print_info";
 
@@ -63,7 +65,7 @@ public class InstallAction2 extends MAction {
 	public static final String PREPARE_TO_RESTART = "prepare_to_restart";
 
 	public void startInstall() {
-		Job job = new Job(m.textInstalling) {
+		this.job = new Job(m.textInstalling) {
 
 			@Override
 			protected IStatus run(IProgressMonitor monitor) {
@@ -137,7 +139,14 @@ public class InstallAction2 extends MAction {
 
 //		job.schedule();
 	}
+	
+	public void cancel() {
+		if(job!=null) {
+			job.cancel();
+		}
+	}
 
+	
 	private void fire(String ref, Object... args) {
 		sync.asyncExec(() -> {
 			stream.fireListener(MEvent.event(this, ref, args));

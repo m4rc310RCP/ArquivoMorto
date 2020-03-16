@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Popup
+Bundle-SymbolicName: com.m4rc310.rcp.popup;singleton:=true
+Bundle-Version: 1.0.41
+Bundle-Vendor: M4RC310
+Automatic-Module-Name: com.m4rc310.rcp.popup
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jface,
+ org.eclipse.e4.core.di.annotations,
+ com.m4rc310.rcp.ui,
+ org.eclipse.core.jobs,
+ org.eclipse.equinox.registry
+Export-Package: com.m4rc310.rcp.popup.notifications
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.e4.ui.services

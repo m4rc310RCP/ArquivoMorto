@@ -45,6 +45,9 @@ public class MEvent extends EventObject {
         return values[index];
     }
 
+    public <T extends Object> T getValue(Class<T> type) {
+    	return getValue(0, type);
+    }
     public <T extends Object> T getValue(int index, Class<T> type) {
         @SuppressWarnings("unchecked")
 		T ret = (T) values[index];

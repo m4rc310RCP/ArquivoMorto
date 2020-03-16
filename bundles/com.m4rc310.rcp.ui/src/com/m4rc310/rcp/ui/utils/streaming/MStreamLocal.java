@@ -41,7 +41,6 @@ public class MStreamLocal {
 
     public void fireListener(MEvent event) {
         filter(event.getPropertyName()).forEach((listener) -> {
-//            Log.info("fire listener [{0}]", event.getPropertyName());
             listener.eventChange(event);
         });
     }

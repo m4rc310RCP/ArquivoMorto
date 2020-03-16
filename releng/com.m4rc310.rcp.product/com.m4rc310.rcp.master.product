@@ -34,7 +34,7 @@
 
    <plugins>
       <plugin id="com.ibm.icu"/>
-      <plugin id="com.m4rc310.rcp.master"/>
+      <plugin id="com.m4rc310.mls.rcp.principal"/>
       <plugin id="javax.annotation"/>
       <plugin id="javax.inject"/>
       <plugin id="org.apache.batik.constants"/>
@@ -110,12 +110,14 @@
    <features>
       <feature id="com.m4rc310.rcp.feature" installMode="root"/>
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
-      <feature id="org.eclipse.rcp" installMode="root"/>
       <feature id="org.eclipse.emf.ecore" installMode="root"/>
       <feature id="org.eclipse.emf.common" installMode="root"/>
-      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
-      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
+      <feature id="org.eclipse.rcp" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature" installMode="root"/>
       <feature id="org.eclipse.ecf.filetransfer.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
    </features>
 
    <configurations>
@@ -128,6 +130,13 @@
 
    <repositories>
       <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
+      <repository location="https://m4rc310.000webhostapp.com/updates/" enabled="true" />
    </repositories>
 
    <preferencesInfo>
@@ -135,7 +144,7 @@
    </preferencesInfo>
 
    <cssInfo>
-      <file path="/com.m4rc310.rcp.master/css/default.css"/>
+      <file path="platform:/plugin/com.m4rc310.rcp.master/css/default.css"/>
    </cssInfo>
 
 </product>
