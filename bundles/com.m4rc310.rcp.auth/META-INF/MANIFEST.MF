@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Auth
 Bundle-SymbolicName: com.m4rc310.rcp.auth;singleton:=true
-Bundle-Version: 1.0.41
+Bundle-Version: 1.0.45
 Bundle-Activator: com.m4rc310.rcp.auth.Activator
 Bundle-Vendor: M4RC310
 Export-Package: com.m4rc310.rcp.auth.actions,

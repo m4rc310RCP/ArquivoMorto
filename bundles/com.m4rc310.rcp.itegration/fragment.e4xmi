@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Bdw1YGfpEeqokvKKjDVKFw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KojJ8GfpEeqokvKKjDVKFw" featurename="children" parentElementId="com.m4rc310.rcp.master.toolbar.left">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_S2kUQGfpEeqokvKKjDVKFw" elementId="com.m4rc310.rcp.itegration.handledtoolitem.import.database" visible="false" iconURI="platform:/plugin/com.m4rc310.rcp.itegration/icons/database_add.png" command="_aKw6oGfpEeqokvKKjDVKFw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ULb1cGfpEeqokvKKjDVKFw" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_aKw6oGfpEeqokvKKjDVKFw" elementId="com.m4rc310.rcp.itegration.command.importolddatabasecommand" commandName="Import Old Database Command"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_hNCqkGfpEeqokvKKjDVKFw" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_khkWYGfpEeqokvKKjDVKFw" elementId="com.m4rc310.rcp.itegration.handler.0" contributionURI="bundleclass://com.m4rc310.rcp.itegration/com.m4rc310.rcp.itegration.handlers.ImportOldDatabaseHandler" command="_aKw6oGfpEeqokvKKjDVKFw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lEr_oGfrEeqokvKKjDVKFw" featurename="addons" parentElementId="xpath:/">
+    <elements xsi:type="application:Addon" xmi:id="_oXJO4GfrEeqokvKKjDVKFw" elementId="com.m4rc310.rcp.itegration.addon.start" contributionURI="bundleclass://com.m4rc310.rcp.itegration/com.m4rc310.rcp.itegration.addons.AddonStart"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_N50esGfvEeqokvKKjDVKFw" featurename="children" parentElementId="help">
+    <elements xsi:type="menu:MenuSeparator" xmi:id="_PtcYcGfvEeqokvKKjDVKFw" elementId="com.m4rc310.rcp.itegration.menuseparator.0"/>
+  </fragments>
+</fragment:ModelFragments>

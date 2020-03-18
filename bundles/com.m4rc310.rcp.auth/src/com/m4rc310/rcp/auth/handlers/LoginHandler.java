@@ -4,9 +4,7 @@ package com.m4rc310.rcp.auth.handlers;
 import javax.inject.Inject;
 
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;
-import org.eclipse.e4.core.contexts.EclipseContextFactory;
 import org.eclipse.e4.core.contexts.IEclipseContext;
-import org.eclipse.e4.core.di.annotations.CanExecute;
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.ui.di.UISynchronize;
 import org.eclipse.e4.ui.model.application.MApplication;
@@ -36,7 +34,9 @@ public class LoginHandler {
 
 //	@Inject  IEclipseContext context;
 
-	@Execute
+	
+	
+	
 	public void nexecute(MApplication mApplication, IEclipseContext context) {
 
 		MHandledToolItem item = (MHandledToolItem) modelService.find("com.m4rc310.rcp.auth.handledtoolitem.0",
@@ -64,34 +64,36 @@ public class LoginHandler {
 //		System.out.println(command.getCommand());
 	}
 
-	public void execute(MHandledToolItem item) {
+	@Execute
+	public void execute(IEclipseContext context) {
+		action.loginLogout(context);
 
-		IEclipseContext context = EclipseContextFactory.create();
-
-		System.out.println(context);
-
-//		sync.syncExec(() -> {
-
-//		E4Application.createDefaultContext();
-
-		boolean state = item.isSelected();
-//			updateIcon(item, state);
-
-		if (state) {
-			item.setIconURI("platform:/plugin/com.m4rc310.rcp.auth/icons/lock_open.png");
-//			this.dialogLogin = ContextInjectionFactory.make(DialogLogin.class, Activator.context);
-
-//			int res = dialogLogin.open();
-//			if (res == Dialog.OK) {
-//				item.setSelected(true);
-//			} else {
-//				item.setSelected(false);
-//				item.setIconURI("platform:/plugin/com.m4rc310.rcp.auth/icons/lock.png");
-//			}
-		} else {
-			action.logout();
-			item.setIconURI("platform:/plugin/com.m4rc310.rcp.auth/icons/lock.png");
-		}
+//		IEclipseContext context = EclipseContextFactory.create();
+//
+//		System.out.println(context);
+//
+////		sync.syncExec(() -> {
+//
+////		E4Application.createDefaultContext();
+//
+//		boolean state = item.isSelected();
+////			updateIcon(item, state);
+//
+//		if (state) {
+//			item.setIconURI("platform:/plugin/com.m4rc310.rcp.auth/icons/lock_open.png");
+////			this.dialogLogin = ContextInjectionFactory.make(DialogLogin.class, Activator.context);
+//
+////			int res = dialogLogin.open();
+////			if (res == Dialog.OK) {
+////				item.setSelected(true);
+////			} else {
+////				item.setSelected(false);
+////				item.setIconURI("platform:/plugin/com.m4rc310.rcp.auth/icons/lock.png");
+////			}
+//		} else {
+//			action.logout();
+//			item.setIconURI("platform:/plugin/com.m4rc310.rcp.auth/icons/lock.png");
+//		}
 	}
 
 

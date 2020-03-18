@@ -24,7 +24,7 @@
 
 	<profiles>
 
-		
+
 
 		<!-- This profile is used to upload the repo -->
 		<profile>
@@ -39,6 +39,38 @@
 
 			<build>
 				<plugins>
+
+					<plugin>
+						<artifactId>maven-clean-plugin</artifactId>
+						<version>3.1.0</version>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+					</plugin>
+
+					<!-- <plugin> -->
+					<!-- <artifactId>maven-clean-plugin</artifactId> -->
+					<!-- <version>3.1.0</version> -->
+
+					<!-- <configuration> -->
+					<!-- <filesets> -->
+					<!-- <fileset> -->
+					<!-- <directory>${ftp.toDir}</directory> -->
+					<!-- <includes> -->
+					<!-- <include>**/*.jar</include> -->
+					<!-- <include>**/*.log</include> -->
+					<!-- </includes> -->
+					<!-- <excludes> -->
+					<!-- <exclude>**/important.log</exclude> -->
+					<!-- <exclude>**/another-important.log</exclude> -->
+					<!-- </excludes> -->
+					<!-- <followSymlinks>false</followSymlinks> -->
+					<!-- </fileset> -->
+					<!-- </filesets> -->
+					<!-- </configuration> -->
+
+					<!-- </plugin> -->
+
 					<!-- Upload the repo to the server -->
 					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
@@ -58,7 +90,7 @@
 									<toDir>${ftp.toDir}</toDir>
 									<url>${ftp.url}</url>
 									<serverId>p2Repo</serverId>
-									
+
 									<followSymlinks>false</followSymlinks>
 									<!-- Points to your settings.xml where the connection settings are 
 										stored as shown below -->

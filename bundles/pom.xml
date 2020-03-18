@@ -17,5 +17,6 @@
         <module>com.m4rc310.rcp.popup</module>
         <module>com.m4rc310.rcp.master</module>
         <module>com.m4rc310.rcp.auth</module>
+        <module>com.m4rc310.rcp.itegration</module>
     </modules>
 </project>

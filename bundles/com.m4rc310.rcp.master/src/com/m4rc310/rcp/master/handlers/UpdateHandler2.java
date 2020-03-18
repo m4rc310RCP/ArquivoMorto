@@ -18,6 +18,7 @@ import org.eclipse.e4.core.di.annotations.CanExecute;
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.core.services.nls.Translation;
+import org.eclipse.e4.ui.di.UIEventTopic;
 import org.eclipse.e4.ui.di.UISynchronize;
 import org.eclipse.e4.ui.workbench.IWorkbench;
 import org.eclipse.equinox.internal.p2.operations.IStatusCodes;
@@ -46,6 +47,8 @@ public class UpdateHandler2 {
 	
 	
 	boolean cancelled = false;
+
+	private boolean enabled = false;
 	
 	
 	@Execute
@@ -76,6 +79,13 @@ public class UpdateHandler2 {
 		}
 
 	}
+	
+	@Inject @Optional
+	public void informLock(@UIEventTopic("lock_function")Boolean lock) {
+		
+		this.enabled = lock;
+	}
+	
 
 	private IStatus update(IProvisioningAgent agent, IProgressMonitor monitor,
 			IWorkbench workbench) {
@@ -153,6 +163,8 @@ public class UpdateHandler2 {
 	}
 	
 	
+	
+	
 	private void messageInfo(String message) {
 		sync.asyncExec(()->{
 			MessageDialog.openInformation(shell, m.dialogMessageboxTitleInfo, message);
@@ -168,8 +180,7 @@ public class UpdateHandler2 {
 
 	@CanExecute
 	public boolean canExecute() {
-
-		return true;
+		return enabled;
 	}
 
 }

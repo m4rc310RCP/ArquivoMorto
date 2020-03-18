@@ -2,7 +2,7 @@
 <feature
       id="com.m4rc310.rcp.feature"
       label="Feature"
-      version="1.0.41"
+      version="1.0.45"
       provider-name="M4RC310">
 
    <description url="http://www.example.com/description">
@@ -40,6 +40,13 @@
 
    <plugin
          id="com.m4rc310.rcp.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.rcp.itegration"
          download-size="0"
          install-size="0"
          version="0.0.0"
