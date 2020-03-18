@@ -1,6 +1,10 @@
 # ArquivoMorto
 
+<<<<<<< HEAD
 **Aplicação começando a tomar forma...**
+=======
+*** Aplicação começando a tomar forma... ***
+>>>>>>> c38ce9df7201fad5aa3ef52a3f4736897856b219
 
 <img src="https://user-images.githubusercontent.com/1664608/76376049-14608b80-6326-11ea-98e7-ab402b29541c.png" width=700/>
 
